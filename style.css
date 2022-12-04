@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "DOS";
+    src: url('./Perfect_DOS_VGA_437.ttf')
+}
+
+* {
+    margin: 0%;
+    padding: 0%;  
+    background-color: black;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+
+.app {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 0px
+}
+
+.txt {
+    font-family: 'DOS';
+    font-size: 10px;
+    color: white;
+    border: 0px;
+    white-space: nowrap; 
+}
